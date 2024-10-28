@@ -5,7 +5,7 @@ This is a React-based Investment Calculator that allows users to input their ini
 ## Table of Contents
 
 - [Features](#features)
-- [Live version](#liveversion)
+- [Live version](#live)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Code Overview](#code-overview)
@@ -18,7 +18,7 @@ This is a React-based Investment Calculator that allows users to input their ini
 - **Real-Time Calculation**: Calculates and displays the annual growth and accumulated interest over the selected investment period.
 - **Data Formatting**: Formats and displays the results in a clear and organized table.
 
-## Live version
+## Live
 
 > You can view a live version of the app [here](https://invest-calc-er.netlify.app/) 
 
