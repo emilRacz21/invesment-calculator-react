@@ -66,10 +66,16 @@ header h1 {
   font-size: 1rem;
 }
 
+#overflow {
+  overflow-x: auto;
+  max-height: 29rem;
+  scrollbar-width: none;
+}
+
 #result {
   max-width: 50rem;
-  margin: 2rem auto;
-  padding: 1rem;
+  margin: 0 auto;
+  padding: 0;
   table-layout: fixed;
   border-spacing: 1rem;
   text-align: right;
