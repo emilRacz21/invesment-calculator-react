@@ -3,15 +3,21 @@ import Header from "./components/Header";
 import Result from "./components/Result";
 import UserInput from "./components/UserInput";
 
-let labels = [
+let initialLabels = [
   { title: "INITIAL INVESMENT", name: "initial", value: 15000 },
   { title: "ANNUAL INVESMENT", name: "annual", value: 1200 },
   { title: "EXPECTED RETURN", name: "return", value: 6 },
   { title: "DURATION", name: "duration", value: 10 },
 ];
 
+let newLabels = [
+  ...initialLabels.map((items) => {
+    return { ...items };
+  }),
+];
+
 function App() {
-  const [items, setItems] = useState(labels);
+  const [items, setItems] = useState(newLabels);
 
   function handleInputValue(event) {
     const { name, value } = event.target;
